@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JScheckpoint</title>
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container1">
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao">
+        <label for="autor">Autor:</label>
+        <input type="text" id="autor">
+        <label for="departamento">Departamento:</label>
+        <input type="text" id="departamento">
+        <label for="importancia">Importância:</label>
+        <select id="importancia">
+            <option value="baixa">Baixa</option>
+            <option value="media">Média</option>
+            <option value="alta">Alta</option>
+        </select>
+        <label for="valor">Valor:</label>
+        <input type="text" id="valor">
+
+        <label for="duracao">Duração:</label>
+        <input type="text" id="duracao">
+        
+        <button id="btnAdd">Adicionar Tarefa</button>
+        <div id="botoes">
+        
+        <button id="btnExcluirConcluidas">Excluir Concluídas</button>
+        <button id="btnAddPagaParte">Adicionar Tarefa Paga à Parte</button>
+        <button id="btnAddComDuracao">Adicionar Tarefa com Duração</button>
+        <button id="btnListarPorImportancia">Listar por Importância</button>
+    </div>
+    </div>
+    
+    <div class="container2">
+        <table id="tabTarefas" border="1">
+            <tr>
+                <th>Autor</th>
+                <th>Departamento</th>
+                <th>Descrição</th>
+                <th>Importância</th>
+                <th>Valor</th>
+                <th>Pagamento Separado</th>
+                <th>Duração</th>
+                <th>Concluída</th>
+                <th>Excluir</th>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px; /* Ajuste conforme necessário */
+    margin: auto; /* Centralizar */
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 1px solid black; /* Corrija a propriedade border */
+    margin-top: 20px; /* Adicione margem superior para espaço entre os contêineres */
+}
+
+#botoes{
+    margin-top: 30px;
+}
